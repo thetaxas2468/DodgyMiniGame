@@ -1,0 +1,66 @@
+# ================================
+# Unity generated folders
+# ================================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# MemoryCaptures can get excessive in size
+MemoryCaptures/
+
+# ================================
+# Visual Studio / Rider / IDEs
+# ================================
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity auto-generated project files
+*.unitypackage
+
+# ================================
+# OS generated files
+# ================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ================================
+# Builds
+# ================================
+*.apk
+*.aab
+*.exe
+*.app
+*.ipa
+*.dll
+*.so
+
+# ================================
+# Crash / cache
+# ================================
+crashlytics-build.properties
+
+# ================================
+# Addressables / Unity cache
+# ================================
+[Bb]uild/[Aa]ssetsCache/
+ServerData/
+
+# ================================
+# JetBrains Rider
+# ================================
+*.DotSettings.user
