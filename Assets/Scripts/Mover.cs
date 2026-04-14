@@ -27,7 +27,10 @@ public class Mover : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
 
         move = new Vector2(moveX, moveY).normalized;
-
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded || (Input.GetKeyDown(KeyCode.Space) && jumpCounts < 2))
         {
             Jump();
